@@ -1,2 +1,2 @@
-# MERN-4021-proj
+# CEN4021 MERN project
 Project for eCommerce platform with MERN
