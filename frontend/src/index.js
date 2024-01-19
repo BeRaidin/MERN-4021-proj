@@ -11,7 +11,7 @@ import HomeScreen from './screens/HomeScreen';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-          <Route index={true} path="/" element={<HomeScreen />} />
+      <Route index={true} path="/" element={<HomeScreen />} />
     </Route>
   )
 )
@@ -22,6 +22,4 @@ root.render(
     <RouterProvider router={router} />
     </React.StrictMode>
 );
-
-
 reportWebVitals();
